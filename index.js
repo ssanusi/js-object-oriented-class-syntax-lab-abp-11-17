@@ -6,7 +6,7 @@ class BoardMember {
 
   }
   veto(){
-    return "No, i must disagree";
+    return "No, I must disagree";
   }
   approve(){
     return "You can do that!"
