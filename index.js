@@ -23,7 +23,7 @@ class BoardMember {
   }
 }
 class Ceo extends BoardMember {
-  constructor() {
+  constructor(name,homeState,training) {
     super(name,homeState,training)
   }
   hireEmployee(){
