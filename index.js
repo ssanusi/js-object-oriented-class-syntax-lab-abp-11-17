@@ -27,6 +27,7 @@ class Ceo extends BoardMember {
     super(name,homeState,training)
   }
   hireEmployee(){
+    super.hireEmployee();
     return 'Welcome aboard';
   }
 }
